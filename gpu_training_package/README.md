@@ -1,5 +1,8 @@
 # NYC taxi temporal graph training
 
+For the interactive simulator, screenshots, and a local quick start, see the
+[main project README](../README.md).
+
 This package trains the PyTorch Geometric Temporal Graph Network developed in
 the NYC taxi demo, using the bundled NYC TLC yellow taxi data. It follows the
 same `solution/`, `environment/`, and `tests/` layout as `boardgame-translearn`.
@@ -39,10 +42,10 @@ run this NVIDIA configuration on the Spark or another compatible Linux host.
 
 ## Build and check CUDA
 
-From the package root on Spark:
+From the repository root on your CUDA host:
 
 ```bash
-cd /home/homer/snorkel/nyc-taxi
+cd gpu_training_package
 mkdir -p artifacts reports logs
 docker compose build
 docker compose run --rm training python3 -c 'import torch; print(torch.__version__, torch.version.cuda, torch.cuda.get_device_name(0)); assert torch.cuda.is_available()'
