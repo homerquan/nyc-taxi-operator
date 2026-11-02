@@ -1,0 +1,20 @@
+services:
+  training:
+    build:
+      context: ./environment
+    image: nyc-taxi-tgn:gpu
+    gpus: all
+    user: "${NYC_UID:-1000}:${NYC_GID:-1000}"
+    working_dir: /app
+    environment:
+      HOME: /tmp
+      OTTER_TESTS_DIR: /tests
+      OTTER_LOG_DIR: /logs/verifier
+      OTTER_APP_DIR: /app
+    volumes:
+      - ./solution:/app/solution:ro
+      - ./tests:/tests:ro
+      - ./artifacts:/app/artifacts
+      - ./reports:/app/reports
+      - ./logs:/logs/verifier
+    command: ["bash", "/app/solution/solve.sh"]

@@ -1,0 +1,100 @@
+[
+  {
+    "config": {
+      "start": 1775016000,
+      "hours": 2,
+      "fleet_size": 80,
+      "fuel_price": 3.5,
+      "mpg": 25,
+      "price_multiplier": 1.0,
+      "demand_scale": 1.0,
+      "max_wait_minutes": 8.0,
+      "driver_cost_hour": 0.0,
+      "seed": 42
+    },
+    "start_time": "2026-04-01T00:00:00-04:00",
+    "request_count": 3237,
+    "source": "TLC historical OD / quarter-hour aggregates with seeded within-bin arrival times",
+    "notice": "Modeled completed-trip demand; not live or original request logs. Forecast frozen at start. Fare booked on completion; full-trip fuel committed at dispatch. In-service trips remain at the horizon. Net is fare minus fuel and configured driver cost; other operating costs excluded. The optimized policy is a heuristic using TGN forecasts and batch matching; gains are not guaranteed.",
+    "net_uplift": 10.75,
+    "baseline": {
+      "requested": 3237,
+      "accepted": 387,
+      "completed": 355,
+      "rejected": 2850,
+      "pending": 0,
+      "in_service": 32,
+      "revenue": 7005.87,
+      "fuel_cost": 246.6,
+      "driver_cost": 0.0,
+      "net_revenue": 6759.28,
+      "miles": 1761.4,
+      "utilization": 0.4,
+      "mean_wait_minutes": 5.55
+    },
+    "optimized": {
+      "requested": 3237,
+      "accepted": 301,
+      "completed": 271,
+      "rejected": 2936,
+      "pending": 0,
+      "in_service": 30,
+      "revenue": 7016.78,
+      "fuel_cost": 246.75,
+      "driver_cost": 0.0,
+      "net_revenue": 6770.03,
+      "miles": 1762.47,
+      "utilization": 0.375,
+      "mean_wait_minutes": 4.29
+    }
+  },
+  {
+    "config": {
+      "start": 1775044800,
+      "hours": 2,
+      "fleet_size": 80,
+      "fuel_price": 3.5,
+      "mpg": 25,
+      "price_multiplier": 1.0,
+      "demand_scale": 1.0,
+      "max_wait_minutes": 8.0,
+      "driver_cost_hour": 0.0,
+      "seed": 42
+    },
+    "start_time": "2026-04-01T08:00:00-04:00",
+    "request_count": 13020,
+    "source": "TLC historical OD / quarter-hour aggregates with seeded within-bin arrival times",
+    "notice": "Modeled completed-trip demand; not live or original request logs. Forecast frozen at start. Fare booked on completion; full-trip fuel committed at dispatch. In-service trips remain at the horizon. Net is fare minus fuel and configured driver cost; other operating costs excluded. The optimized policy is a heuristic using TGN forecasts and batch matching; gains are not guaranteed.",
+    "net_uplift": 2529.05,
+    "baseline": {
+      "requested": 13020,
+      "accepted": 511,
+      "completed": 434,
+      "rejected": 12509,
+      "pending": 0,
+      "in_service": 77,
+      "revenue": 8778.63,
+      "fuel_cost": 244.34,
+      "driver_cost": 0.0,
+      "net_revenue": 8534.29,
+      "miles": 1745.32,
+      "utilization": 0.9625,
+      "mean_wait_minutes": 6.5
+    },
+    "optimized": {
+      "requested": 13020,
+      "accepted": 404,
+      "completed": 334,
+      "rejected": 12616,
+      "pending": 0,
+      "in_service": 70,
+      "revenue": 11369.71,
+      "fuel_cost": 306.37,
+      "driver_cost": 0.0,
+      "net_revenue": 11063.34,
+      "miles": 2188.37,
+      "utilization": 0.875,
+      "mean_wait_minutes": 4.47
+    }
+  }
+]

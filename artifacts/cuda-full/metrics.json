@@ -1,0 +1,65 @@
+{
+  "population": {
+    "description": "Sampled positive routes and up to N same-origin routes absent in the same pickup hour; metrics are not citywide.",
+    "negatives_per_positive": 20,
+    "max_positives_per_hour": 256,
+    "hours": 4392,
+    "test_start": "2026-04-01T00:00:00-04:00",
+    "test_end_exclusive": "2026-10-01T00:00:00-04:00",
+    "seed": 44
+  },
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GB10",
+    "compute_capability": [
+      12,
+      1
+    ]
+  },
+  "models": {
+    "tgn": {
+      "examples": 23603916,
+      "positive_routes": 1123996,
+      "mrr": 0.6569313781377322,
+      "hits_at_10": 0.9613521756305182,
+      "roc_auc": 0.8739544342115405,
+      "average_precision": 0.4422265734466262,
+      "volume_mae": 0.12779747092217417,
+      "volume_rmse": 0.5059094035366897,
+      "poisson_deviance": 0.2860090790279007,
+      "duration_mae": 5.309780272495729,
+      "fare_mae": 5.918260305757529,
+      "departure_total_variation": 0.6279808086563688
+    },
+    "recent": {
+      "examples": 23603916,
+      "positive_routes": 1123996,
+      "mrr": 0.5271075070351458,
+      "hits_at_10": 0.6360654308378322,
+      "roc_auc": 0.7784550472748254,
+      "average_precision": 0.3325353944839029,
+      "volume_mae": 0.14614717044754605,
+      "volume_rmse": 0.590081003797096,
+      "poisson_deviance": 0.7570540405063112,
+      "duration_mae": 5.692868608476129,
+      "fare_mae": 4.8591346995360265,
+      "departure_total_variation": 0.6299502442240686
+    },
+    "seasonal": {
+      "examples": 23603916,
+      "positive_routes": 1123996,
+      "mrr": 0.5902943022957505,
+      "hits_at_10": 0.7260782066840096,
+      "roc_auc": 0.8198429602804164,
+      "average_precision": 0.41325665312180326,
+      "volume_mae": 0.13445724183572208,
+      "volume_rmse": 0.48392220994242025,
+      "poisson_deviance": 0.5724163984522718,
+      "duration_mae": 5.692868608476126,
+      "fare_mae": 4.8591346995360345,
+      "departure_total_variation": 0.629950244224069
+    }
+  }
+}

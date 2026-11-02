@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "cutoff": "2025-01-02T23:00:00-05:00",
+  "replayed_hours": 48,
+  "evaluated_hours": 8,
+  "elapsed_seconds": 1.1,
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GB10",
+    "compute_capability": [
+      12,
+      1
+    ]
+  }
+}

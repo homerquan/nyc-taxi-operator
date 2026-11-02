@@ -1,0 +1,8 @@
+# Keep the NVIDIA image's CUDA-enabled PyTorch, numpy, pandas, pyarrow and scipy.
+# These packages are installed with --no-deps so pip cannot replace torch.
+duckdb==1.5.6
+torch-geometric==2.8.1
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+pyproj==3.8.0

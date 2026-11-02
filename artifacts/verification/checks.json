@@ -1,0 +1,48 @@
+{
+  "python_tests": {
+    "passed": 20
+  },
+  "frontend_tests": {
+    "passed": 3
+  },
+  "frontend_build": "passed",
+  "cuda_training_api": "one epoch plus held-out evaluation passed",
+  "cuda_resume_api": "resumed to epoch two plus held-out evaluation passed",
+  "browser": {
+    "desktop": "passed",
+    "mobile": "passed; no horizontal overflow",
+    "page_errors": [],
+    "full_model_simulation_seconds": 6.27,
+    "playback_100x": "110 simulated seconds in 1.1 real seconds"
+  },
+  "benchmarks": "simulation_benchmarks.json",
+  "limits": [
+    "Historical completed-trip aggregates, not original live requests",
+    "Forecast-guided heuristic; gains depend on the scenario",
+    "Net excludes costs other than fuel and configured driver costs"
+  ],
+  "playback_crash_fix": {
+    "regressions": [
+      "4392 historical options remain unchanged during playback",
+      "native date/number formatters reused",
+      "inactive workspace pauses and preserves playback"
+    ],
+    "browser": {
+      "two_hour_scenario_at_100x": "completed without crash",
+      "browser_heap_limit_mb": 384,
+      "wall_seconds_at_completion": 72.5,
+      "main_thread_seconds_at_completion": 6.79,
+      "js_heap_peak_mb": 45.4,
+      "js_heap_final_mb": 18.3
+    },
+    "before": {
+      "wall_seconds": 46.4,
+      "main_thread_seconds": 47.55
+    },
+    "after": {
+      "wall_seconds": 80.6,
+      "main_thread_seconds": 6.85
+    },
+    "production_build": "passed"
+  }
+}

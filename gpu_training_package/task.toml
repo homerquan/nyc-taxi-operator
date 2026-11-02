@@ -1,0 +1,30 @@
+schema_version = "1.3"
+runtime_limits = 14400
+
+[task]
+name = "otter/nyc-taxi-tgn"
+description = "Train a temporal graph network and compare held-out taxi route ranking with historical baselines"
+
+[metadata]
+domain = "machine-learning"
+subdomain = "temporal-graph-prediction"
+tags = ["pytorch-geometric", "cuda", "nyc-taxi"]
+source_dataset = "NYC TLC yellow taxi trip records"
+source_url = "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page"
+source_license = "NYC Open Data terms"
+
+[environment]
+build_timeout_sec = 3600.0
+workdir = "/app"
+os = "linux"
+cpus = 8
+memory_mb = 32768
+storage_mb = 65536
+gpus = 1
+allow_internet = true
+
+[agent]
+timeout_sec = 14400.0
+
+[verifier]
+timeout_sec = 1200.0

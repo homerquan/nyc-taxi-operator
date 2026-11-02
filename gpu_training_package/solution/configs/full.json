@@ -1,0 +1,13 @@
+{
+  "train_end": "2025-10-01T00:00:00-04:00",
+  "validation_end": "2026-04-01T00:00:00-04:00",
+  "test_end": "2026-10-01T00:00:00-04:00",
+  "memory_dim": 48,
+  "time_dim": 16,
+  "hidden_dim": 64,
+  "negative_ratio": 1,
+  "max_positives": 512,
+  "learning_rate": 0.0005,
+  "seed": 42,
+  "loss_weights": {"link": 1.0, "volume": 0.15, "duration": 1.0, "fare": 1.0, "departure": 0.5}
+}

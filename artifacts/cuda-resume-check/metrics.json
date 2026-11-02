@@ -1,0 +1,65 @@
+{
+  "population": {
+    "description": "Sampled positive routes and up to N same-origin routes absent in the same pickup hour; metrics are not citywide.",
+    "negatives_per_positive": 20,
+    "max_positives_per_hour": 256,
+    "hours": 2,
+    "test_start": "2025-01-02T16:00:00-05:00",
+    "test_end_exclusive": "2025-01-03T00:00:00-05:00",
+    "seed": 44
+  },
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GB10",
+    "compute_capability": [
+      12,
+      1
+    ]
+  },
+  "models": {
+    "tgn": {
+      "examples": 10752,
+      "positive_routes": 512,
+      "mrr": 0.06642963962073142,
+      "hits_at_10": 0.07421875,
+      "roc_auc": 0.1981492042541504,
+      "average_precision": 0.028329459841424653,
+      "volume_mae": 0.29695892050360617,
+      "volume_rmse": 0.9012040689269379,
+      "poisson_deviance": 1.0699027631875226,
+      "duration_mae": 11.276435710256884,
+      "fare_mae": 12.43068067157093,
+      "departure_total_variation": 0.5628645147148701
+    },
+    "recent": {
+      "examples": 10752,
+      "positive_routes": 512,
+      "mrr": 0.7032689389103443,
+      "hits_at_10": 0.8125,
+      "roc_auc": 0.8803491592407227,
+      "average_precision": 0.5736772459619028,
+      "volume_mae": 0.1346424595499193,
+      "volume_rmse": 0.5271540855557593,
+      "poisson_deviance": 0.4618963572298337,
+      "duration_mae": 6.845878299554537,
+      "fare_mae": 5.665140924747793,
+      "departure_total_variation": 0.5706012936101438
+    },
+    "seasonal": {
+      "examples": 10752,
+      "positive_routes": 512,
+      "mrr": 0.0909090909090909,
+      "hits_at_10": 0.0,
+      "roc_auc": 0.5,
+      "average_precision": 0.047619047619047616,
+      "volume_mae": 0.1380217380952358,
+      "volume_rmse": 0.9009748477844437,
+      "poisson_deviance": 3.9334019722686535,
+      "duration_mae": 6.845878299554537,
+      "fare_mae": 5.665140924747793,
+      "departure_total_variation": 0.5706012936101438
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "task_id": "otter/nyc-taxi-tgn",
+  "pass_criteria": {
+    "mrr_improvement_over_best_history": {"threshold": 0.0, "comparison": "gt"}
+  },
+  "description": "TGN sampled route MRR must strictly exceed both the recent and seasonal history baselines on the same complete held-out test. This is not a business-value claim."
+}

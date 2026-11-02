@@ -1,0 +1,65 @@
+{
+  "population": {
+    "description": "Sampled positive routes and up to N same-origin routes absent in the same pickup hour; metrics are not citywide.",
+    "negatives_per_positive": 20,
+    "max_positives_per_hour": 256,
+    "hours": 8,
+    "test_start": "2025-01-02T16:00:00-05:00",
+    "test_end_exclusive": "2025-01-03T00:00:00-05:00",
+    "seed": 44
+  },
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GB10",
+    "compute_capability": [
+      12,
+      1
+    ]
+  },
+  "models": {
+    "tgn": {
+      "examples": 43008,
+      "positive_routes": 2048,
+      "mrr": 0.06633172513762427,
+      "hits_at_10": 0.0625,
+      "roc_auc": 0.21536291241645814,
+      "average_precision": 0.02902703725524545,
+      "volume_mae": 0.670361126764744,
+      "volume_rmse": 0.9553940841243054,
+      "poisson_deviance": 1.4224429064783486,
+      "duration_mae": 8.486555565050494,
+      "fare_mae": 11.80075686964845,
+      "departure_total_variation": 0.5879369607819938
+    },
+    "recent": {
+      "examples": 43008,
+      "positive_routes": 2048,
+      "mrr": 0.6755294994700766,
+      "hits_at_10": 0.7978515625,
+      "roc_auc": 0.8673462510108948,
+      "average_precision": 0.5117040472233633,
+      "volume_mae": 0.15790943370823815,
+      "volume_rmse": 0.6106317839020217,
+      "poisson_deviance": 0.5253162203177136,
+      "duration_mae": 4.854807901465946,
+      "fare_mae": 4.94795780126632,
+      "departure_total_variation": 0.5935528962541904
+    },
+    "seasonal": {
+      "examples": 43008,
+      "positive_routes": 2048,
+      "mrr": 0.0909090909090909,
+      "hits_at_10": 0.0,
+      "roc_auc": 0.5,
+      "average_precision": 0.047619047619047616,
+      "volume_mae": 0.12369882142856913,
+      "volume_rmse": 0.8322629289847278,
+      "poisson_deviance": 3.4999154055994883,
+      "duration_mae": 4.854807901465946,
+      "fare_mae": 4.94795780126632,
+      "departure_total_variation": 0.5935528962541904
+    }
+  }
+}

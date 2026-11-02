@@ -1,0 +1,23 @@
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+*.tsbuildinfo
+.DS_Store
+
+# Local runtime state and interrupted downloads
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.part
+**/replay-*.pt
+/artifacts/dashboard-*/
+
+# Editor and OS state
+.idea/
+.vscode/

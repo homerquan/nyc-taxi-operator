@@ -1,0 +1,6 @@
+artifacts/
+reports/
+logs/
+__pycache__/
+*.py[cod]
+.DS_Store

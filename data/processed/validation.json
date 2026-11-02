@@ -1,0 +1,254 @@
+[
+  {
+    "source": "yellow_tripdata_2023-10.parquet",
+    "rows": 3522285,
+    "invalid_time_zone_or_location": 56573,
+    "invalid_duration_distance_or_fare": 39165,
+    "accepted": 3426547
+  },
+  {
+    "source": "yellow_tripdata_2023-11.parquet",
+    "rows": 3339715,
+    "invalid_time_zone_or_location": 59858,
+    "invalid_duration_distance_or_fare": 38890,
+    "accepted": 3240967
+  },
+  {
+    "source": "yellow_tripdata_2023-12.parquet",
+    "rows": 3376567,
+    "invalid_time_zone_or_location": 39022,
+    "invalid_duration_distance_or_fare": 44880,
+    "accepted": 3292665
+  },
+  {
+    "source": "yellow_tripdata_2024-01.parquet",
+    "rows": 2964624,
+    "invalid_time_zone_or_location": 31542,
+    "invalid_duration_distance_or_fare": 39059,
+    "accepted": 2894023
+  },
+  {
+    "source": "yellow_tripdata_2024-02.parquet",
+    "rows": 3007526,
+    "invalid_time_zone_or_location": 28988,
+    "invalid_duration_distance_or_fare": 42199,
+    "accepted": 2936339
+  },
+  {
+    "source": "yellow_tripdata_2024-03.parquet",
+    "rows": 3582628,
+    "invalid_time_zone_or_location": 35400,
+    "invalid_duration_distance_or_fare": 60257,
+    "accepted": 3486971
+  },
+  {
+    "source": "yellow_tripdata_2024-04.parquet",
+    "rows": 3514289,
+    "invalid_time_zone_or_location": 35768,
+    "invalid_duration_distance_or_fare": 59428,
+    "accepted": 3419093
+  },
+  {
+    "source": "yellow_tripdata_2024-05.parquet",
+    "rows": 3723833,
+    "invalid_time_zone_or_location": 38758,
+    "invalid_duration_distance_or_fare": 61726,
+    "accepted": 3623349
+  },
+  {
+    "source": "yellow_tripdata_2024-06.parquet",
+    "rows": 3539193,
+    "invalid_time_zone_or_location": 38562,
+    "invalid_duration_distance_or_fare": 63333,
+    "accepted": 3437298
+  },
+  {
+    "source": "yellow_tripdata_2024-07.parquet",
+    "rows": 3076903,
+    "invalid_time_zone_or_location": 36133,
+    "invalid_duration_distance_or_fare": 59927,
+    "accepted": 2980843
+  },
+  {
+    "source": "yellow_tripdata_2024-08.parquet",
+    "rows": 2979183,
+    "invalid_time_zone_or_location": 34484,
+    "invalid_duration_distance_or_fare": 59458,
+    "accepted": 2885241
+  },
+  {
+    "source": "yellow_tripdata_2024-09.parquet",
+    "rows": 3633030,
+    "invalid_time_zone_or_location": 35427,
+    "invalid_duration_distance_or_fare": 74379,
+    "accepted": 3523224
+  },
+  {
+    "source": "yellow_tripdata_2024-10.parquet",
+    "rows": 3833771,
+    "invalid_time_zone_or_location": 42648,
+    "invalid_duration_distance_or_fare": 76706,
+    "accepted": 3714417
+  },
+  {
+    "source": "yellow_tripdata_2024-11.parquet",
+    "rows": 3646369,
+    "invalid_time_zone_or_location": 44428,
+    "invalid_duration_distance_or_fare": 72743,
+    "accepted": 3529198
+  },
+  {
+    "source": "yellow_tripdata_2024-12.parquet",
+    "rows": 3668371,
+    "invalid_time_zone_or_location": 35329,
+    "invalid_duration_distance_or_fare": 80099,
+    "accepted": 3552943
+  },
+  {
+    "source": "yellow_tripdata_2025-01.parquet",
+    "rows": 3475226,
+    "invalid_time_zone_or_location": 28379,
+    "invalid_duration_distance_or_fare": 146262,
+    "accepted": 3300585
+  },
+  {
+    "source": "yellow_tripdata_2025-02.parquet",
+    "rows": 3577543,
+    "invalid_time_zone_or_location": 25039,
+    "invalid_duration_distance_or_fare": 187905,
+    "accepted": 3364599
+  },
+  {
+    "source": "yellow_tripdata_2025-03.parquet",
+    "rows": 4145257,
+    "invalid_time_zone_or_location": 28448,
+    "invalid_duration_distance_or_fare": 230975,
+    "accepted": 3885834
+  },
+  {
+    "source": "yellow_tripdata_2025-04.parquet",
+    "rows": 3970553,
+    "invalid_time_zone_or_location": 29107,
+    "invalid_duration_distance_or_fare": 221410,
+    "accepted": 3720036
+  },
+  {
+    "source": "yellow_tripdata_2025-05.parquet",
+    "rows": 4591845,
+    "invalid_time_zone_or_location": 34795,
+    "invalid_duration_distance_or_fare": 388676,
+    "accepted": 4168374
+  },
+  {
+    "source": "yellow_tripdata_2025-06.parquet",
+    "rows": 4322960,
+    "invalid_time_zone_or_location": 33035,
+    "invalid_duration_distance_or_fare": 343345,
+    "accepted": 3946580
+  },
+  {
+    "source": "yellow_tripdata_2025-07.parquet",
+    "rows": 3898963,
+    "invalid_time_zone_or_location": 31921,
+    "invalid_duration_distance_or_fare": 301988,
+    "accepted": 3565054
+  },
+  {
+    "source": "yellow_tripdata_2025-08.parquet",
+    "rows": 3574091,
+    "invalid_time_zone_or_location": 32106,
+    "invalid_duration_distance_or_fare": 307581,
+    "accepted": 3234404
+  },
+  {
+    "source": "yellow_tripdata_2025-09.parquet",
+    "rows": 4251015,
+    "invalid_time_zone_or_location": 32081,
+    "invalid_duration_distance_or_fare": 309212,
+    "accepted": 3909722
+  },
+  {
+    "source": "yellow_tripdata_2025-10.parquet",
+    "rows": 4428699,
+    "invalid_time_zone_or_location": 33558,
+    "invalid_duration_distance_or_fare": 388499,
+    "accepted": 4006642
+  },
+  {
+    "source": "yellow_tripdata_2025-11.parquet",
+    "rows": 4181444,
+    "invalid_time_zone_or_location": 45315,
+    "invalid_duration_distance_or_fare": 451898,
+    "accepted": 3684231
+  },
+  {
+    "source": "yellow_tripdata_2025-12.parquet",
+    "rows": 4305006,
+    "invalid_time_zone_or_location": 32286,
+    "invalid_duration_distance_or_fare": 107080,
+    "accepted": 4165640
+  },
+  {
+    "source": "yellow_tripdata_2026-01.parquet",
+    "rows": 3724889,
+    "invalid_time_zone_or_location": 25256,
+    "invalid_duration_distance_or_fare": 85251,
+    "accepted": 3614382
+  },
+  {
+    "source": "yellow_tripdata_2026-02.parquet",
+    "rows": 3399866,
+    "invalid_time_zone_or_location": 21903,
+    "invalid_duration_distance_or_fare": 68003,
+    "accepted": 3309960
+  },
+  {
+    "source": "yellow_tripdata_2026-03.parquet",
+    "rows": 3952451,
+    "invalid_time_zone_or_location": 23886,
+    "invalid_duration_distance_or_fare": 70351,
+    "accepted": 3858214
+  },
+  {
+    "source": "yellow_tripdata_2026-04.parquet",
+    "rows": 3831240,
+    "invalid_time_zone_or_location": 23635,
+    "invalid_duration_distance_or_fare": 64542,
+    "accepted": 3743063
+  },
+  {
+    "source": "yellow_tripdata_2026-05.parquet",
+    "rows": 4090836,
+    "invalid_time_zone_or_location": 25273,
+    "invalid_duration_distance_or_fare": 67108,
+    "accepted": 3998455
+  },
+  {
+    "source": "yellow_tripdata_2026-06.parquet",
+    "rows": 3837248,
+    "invalid_time_zone_or_location": 26983,
+    "invalid_duration_distance_or_fare": 63907,
+    "accepted": 3746358
+  },
+  {
+    "source": "yellow_tripdata_2026-07.parquet",
+    "rows": 3530109,
+    "invalid_time_zone_or_location": 27905,
+    "invalid_duration_distance_or_fare": 56805,
+    "accepted": 3445399
+  },
+  {
+    "source": "yellow_tripdata_2026-08.parquet",
+    "rows": 3336716,
+    "invalid_time_zone_or_location": 26788,
+    "invalid_duration_distance_or_fare": 55323,
+    "accepted": 3254605
+  },
+  {
+    "source": "yellow_tripdata_2026-09.parquet",
+    "rows": 3876044,
+    "invalid_time_zone_or_location": 25961,
+    "invalid_duration_distance_or_fare": 62575,
+    "accepted": 3787508
+  }
+]

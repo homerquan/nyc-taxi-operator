@@ -1,0 +1,9 @@
+[
+  {
+    "source": "yellow_tripdata_2025-01.parquet",
+    "rows": 3475226,
+    "invalid_time_zone_or_location": 28379,
+    "invalid_duration_distance_or_fare": 146262,
+    "accepted": 3300585
+  }
+]

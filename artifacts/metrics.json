@@ -1,0 +1,55 @@
+{
+  "population": {
+    "description": "Sampled positive routes and up to N same-origin routes absent in the same pickup hour; metrics are not citywide.",
+    "negatives_per_positive": 20,
+    "max_positives_per_hour": 256,
+    "hours": 36,
+    "test_start": "2025-01-09T12:00:00-05:00",
+    "test_end_exclusive": "2025-01-11T00:00:00-05:00",
+    "seed": 44
+  },
+  "models": {
+    "tgn": {
+      "examples": 193536,
+      "positive_routes": 9216,
+      "mrr": 0.6830327438299574,
+      "hits_at_10": 0.9370659722222222,
+      "roc_auc": 0.8469265669952204,
+      "average_precision": 0.5066821167913362,
+      "volume_mae": 0.13954920973311813,
+      "volume_rmse": 0.9441168420926892,
+      "poisson_deviance": 0.4475680586894822,
+      "duration_mae": 7.517021339929759,
+      "fare_mae": 7.922380663672495,
+      "departure_total_variation": 0.599152227786103
+    },
+    "recent": {
+      "examples": 193536,
+      "positive_routes": 9216,
+      "mrr": 0.6048704021417234,
+      "hits_at_10": 0.6953125,
+      "roc_auc": 0.8174953631412836,
+      "average_precision": 0.43836668506413523,
+      "volume_mae": 0.142828707922786,
+      "volume_rmse": 0.6250022691624957,
+      "poisson_deviance": 0.6510581314141388,
+      "duration_mae": 4.9699590358373635,
+      "fare_mae": 4.09289870638584,
+      "departure_total_variation": 0.5986868033697372
+    },
+    "seasonal": {
+      "examples": 193536,
+      "positive_routes": 9216,
+      "mrr": 0.4890769079448913,
+      "hits_at_10": 0.5132378472222222,
+      "roc_auc": 0.7381050848666533,
+      "average_precision": 0.3352513318090935,
+      "volume_mae": 0.12463790213193279,
+      "volume_rmse": 0.8957483996576183,
+      "poisson_deviance": 1.0530315366421676,
+      "duration_mae": 4.969959035837365,
+      "fare_mae": 4.092898706385841,
+      "departure_total_variation": 0.5986868033697373
+    }
+  }
+}

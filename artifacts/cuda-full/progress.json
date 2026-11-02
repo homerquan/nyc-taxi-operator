@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "epoch": 27,
+  "cutoff": null,
+  "processed_hours": null,
+  "elapsed_seconds": 14729.7,
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GB10",
+    "compute_capability": [
+      12,
+      1
+    ]
+  }
+}

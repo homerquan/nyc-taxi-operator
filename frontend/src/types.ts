@@ -1,0 +1,11 @@
+export type ZoneProperties = { zone_id: number; zone: string; borough: string; longitude: number; latitude: number };
+export type ZoneFeature = { type: 'Feature'; properties: ZoneProperties; geometry: { type: string; coordinates: unknown } };
+export type Zones = { type: 'FeatureCollection'; features: ZoneFeature[] };
+export type Prediction = { source_zone: number; target_zone: number; link_probability: number; predicted_trips: number; predicted_duration_min: number; predicted_fare_usd: number; departure_bin_probabilities: number[] };
+export type ActualRoute = { source_zone: number; target_zone: number; trip_count: number; duration: number; fare: number; distance: number; bin0: number; bin1: number; bin2: number; bin3: number };
+export type Forecast = { as_of: string; forecast_type: string; predictions: Prediction[]; summary: { predicted_total: number; zone_pickups: Record<string, number>; zone_dropoffs: Record<string, number> } };
+export type Actuals = { available: boolean; total_trips: number; routes: ActualRoute[] };
+export type Metrics = { population: { description: string; hours: number; negatives_per_positive: number } | null; models: Record<string, { mrr: number; volume_mae: number; duration_mae: number; fare_mae: number }> };
+export type Timeline = { hours: { time: string; actual_trips: number }[] };
+export type ZoneForecast = { predicted_pickups: number; predicted_dropoffs: number; incoming: Prediction[]; outgoing: Prediction[]; recent_actuals: Timeline['hours'] };
+export type Flow = { source: number; target: number; from: [number, number]; to: [number, number]; value: number; predicted?: Prediction; actual?: ActualRoute; error?: number };

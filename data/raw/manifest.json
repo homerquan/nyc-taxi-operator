@@ -1,0 +1,268 @@
+{
+  "taxi_zone_lookup.csv": {
+    "checked_at": "2026-11-01T02:18:55.539876+00:00",
+    "downloaded_at": "2026-11-01T02:11:03.209734+00:00",
+    "size": 12331,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv"
+  },
+  "taxi_zones.zip": {
+    "checked_at": "2026-11-01T02:18:55.530218+00:00",
+    "downloaded_at": "2026-11-01T02:11:03.196625+00:00",
+    "size": 1022574,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zones.zip"
+  },
+  "yellow_tripdata_2023-10.parquet": {
+    "checked_at": "2026-11-01T02:18:31.308565+00:00",
+    "downloaded_at": "2026-11-01T02:18:32.038260+00:00",
+    "size": 59009059,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-10.parquet"
+  },
+  "yellow_tripdata_2023-11.parquet": {
+    "checked_at": "2026-11-01T02:18:32.038623+00:00",
+    "downloaded_at": "2026-11-01T02:18:32.839855+00:00",
+    "size": 56094653,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-11.parquet"
+  },
+  "yellow_tripdata_2023-12.parquet": {
+    "checked_at": "2026-11-01T02:18:32.840402+00:00",
+    "downloaded_at": "2026-11-01T02:18:33.343415+00:00",
+    "size": 56804275,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-12.parquet"
+  },
+  "yellow_tripdata_2024-01.parquet": {
+    "checked_at": "2026-11-01T02:18:33.343913+00:00",
+    "downloaded_at": "2026-11-01T02:18:33.788939+00:00",
+    "size": 49961641,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet"
+  },
+  "yellow_tripdata_2024-02.parquet": {
+    "checked_at": "2026-11-01T02:18:33.789447+00:00",
+    "downloaded_at": "2026-11-01T02:18:34.235813+00:00",
+    "size": 50349284,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet"
+  },
+  "yellow_tripdata_2024-03.parquet": {
+    "checked_at": "2026-11-01T02:18:34.236032+00:00",
+    "downloaded_at": "2026-11-01T02:18:34.787612+00:00",
+    "size": 60078280,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet"
+  },
+  "yellow_tripdata_2024-04.parquet": {
+    "checked_at": "2026-11-01T02:18:34.788195+00:00",
+    "downloaded_at": "2026-11-01T02:18:35.485982+00:00",
+    "size": 59133625,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet"
+  },
+  "yellow_tripdata_2024-05.parquet": {
+    "checked_at": "2026-11-01T02:18:35.486589+00:00",
+    "downloaded_at": "2026-11-01T02:18:36.064293+00:00",
+    "size": 62553128,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-05.parquet"
+  },
+  "yellow_tripdata_2024-06.parquet": {
+    "checked_at": "2026-11-01T02:18:36.064900+00:00",
+    "downloaded_at": "2026-11-01T02:18:36.809917+00:00",
+    "size": 59859922,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-06.parquet"
+  },
+  "yellow_tripdata_2024-07.parquet": {
+    "checked_at": "2026-11-01T02:18:36.810532+00:00",
+    "downloaded_at": "2026-11-01T02:18:37.425427+00:00",
+    "size": 52299432,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-07.parquet"
+  },
+  "yellow_tripdata_2024-08.parquet": {
+    "checked_at": "2026-11-01T02:18:37.425946+00:00",
+    "downloaded_at": "2026-11-01T02:18:37.880245+00:00",
+    "size": 51067350,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-08.parquet"
+  },
+  "yellow_tripdata_2024-09.parquet": {
+    "checked_at": "2026-11-01T02:18:37.880890+00:00",
+    "downloaded_at": "2026-11-01T02:18:38.420806+00:00",
+    "size": 61170186,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-09.parquet"
+  },
+  "yellow_tripdata_2024-10.parquet": {
+    "checked_at": "2026-11-01T02:18:38.421330+00:00",
+    "downloaded_at": "2026-11-01T02:18:38.999421+00:00",
+    "size": 64346071,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-10.parquet"
+  },
+  "yellow_tripdata_2024-11.parquet": {
+    "checked_at": "2026-11-01T02:18:38.999831+00:00",
+    "downloaded_at": "2026-11-01T02:18:39.536049+00:00",
+    "size": 60658709,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-11.parquet"
+  },
+  "yellow_tripdata_2024-12.parquet": {
+    "checked_at": "2026-11-01T02:18:39.536762+00:00",
+    "downloaded_at": "2026-11-01T02:18:40.081306+00:00",
+    "size": 61524085,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-12.parquet"
+  },
+  "yellow_tripdata_2025-01.parquet": {
+    "checked_at": "2026-11-01T02:18:40.082087+00:00",
+    "downloaded_at": "2026-11-01T02:11:03.065301+00:00",
+    "size": 59158238,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet"
+  },
+  "yellow_tripdata_2025-02.parquet": {
+    "checked_at": "2026-11-01T02:18:40.091659+00:00",
+    "downloaded_at": "2026-11-01T02:18:40.628582+00:00",
+    "size": 60343086,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-02.parquet"
+  },
+  "yellow_tripdata_2025-03.parquet": {
+    "checked_at": "2026-11-01T02:18:40.629230+00:00",
+    "downloaded_at": "2026-11-01T02:18:41.244916+00:00",
+    "size": 69964745,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-03.parquet"
+  },
+  "yellow_tripdata_2025-04.parquet": {
+    "checked_at": "2026-11-01T02:18:41.245609+00:00",
+    "downloaded_at": "2026-11-01T02:18:42.903760+00:00",
+    "size": 67352824,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-04.parquet"
+  },
+  "yellow_tripdata_2025-05.parquet": {
+    "checked_at": "2026-11-01T02:18:42.904262+00:00",
+    "downloaded_at": "2026-11-01T02:18:44.751783+00:00",
+    "size": 77837865,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-05.parquet"
+  },
+  "yellow_tripdata_2025-06.parquet": {
+    "checked_at": "2026-11-01T02:18:44.752437+00:00",
+    "downloaded_at": "2026-11-01T02:18:45.399065+00:00",
+    "size": 73542954,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-06.parquet"
+  },
+  "yellow_tripdata_2025-07.parquet": {
+    "checked_at": "2026-11-01T02:18:45.399720+00:00",
+    "downloaded_at": "2026-11-01T02:18:45.997304+00:00",
+    "size": 66943728,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-07.parquet"
+  },
+  "yellow_tripdata_2025-08.parquet": {
+    "checked_at": "2026-11-01T02:18:45.998010+00:00",
+    "downloaded_at": "2026-11-01T02:18:46.548967+00:00",
+    "size": 62293743,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-08.parquet"
+  },
+  "yellow_tripdata_2025-09.parquet": {
+    "checked_at": "2026-11-01T02:18:46.549630+00:00",
+    "downloaded_at": "2026-11-01T02:18:47.190217+00:00",
+    "size": 72432945,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-09.parquet"
+  },
+  "yellow_tripdata_2025-10.parquet": {
+    "checked_at": "2026-11-01T02:18:47.190939+00:00",
+    "downloaded_at": "2026-11-01T02:18:48.691839+00:00",
+    "size": 75267589,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-10.parquet"
+  },
+  "yellow_tripdata_2025-11.parquet": {
+    "checked_at": "2026-11-01T02:18:48.692517+00:00",
+    "downloaded_at": "2026-11-01T02:18:49.326707+00:00",
+    "size": 71134255,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-11.parquet"
+  },
+  "yellow_tripdata_2025-12.parquet": {
+    "checked_at": "2026-11-01T02:18:49.327434+00:00",
+    "downloaded_at": "2026-11-01T02:18:50.136154+00:00",
+    "size": 73701327,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-12.parquet"
+  },
+  "yellow_tripdata_2026-01.parquet": {
+    "checked_at": "2026-11-01T02:18:50.136837+00:00",
+    "downloaded_at": "2026-11-01T02:18:50.715880+00:00",
+    "size": 64165080,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-01.parquet"
+  },
+  "yellow_tripdata_2026-02.parquet": {
+    "checked_at": "2026-11-01T02:18:50.716662+00:00",
+    "downloaded_at": "2026-11-01T02:18:51.235454+00:00",
+    "size": 58683353,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-02.parquet"
+  },
+  "yellow_tripdata_2026-03.parquet": {
+    "checked_at": "2026-11-01T02:18:51.236192+00:00",
+    "downloaded_at": "2026-11-01T02:18:51.835083+00:00",
+    "size": 67891249,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-03.parquet"
+  },
+  "yellow_tripdata_2026-04.parquet": {
+    "checked_at": "2026-11-01T02:18:51.835875+00:00",
+    "downloaded_at": "2026-11-01T02:18:52.410633+00:00",
+    "size": 64818115,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-04.parquet"
+  },
+  "yellow_tripdata_2026-05.parquet": {
+    "checked_at": "2026-11-01T02:18:52.411374+00:00",
+    "downloaded_at": "2026-11-01T02:18:53.024463+00:00",
+    "size": 69699174,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-05.parquet"
+  },
+  "yellow_tripdata_2026-06.parquet": {
+    "checked_at": "2026-11-01T02:18:53.025179+00:00",
+    "downloaded_at": "2026-11-01T02:18:53.843311+00:00",
+    "size": 65465637,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-06.parquet"
+  },
+  "yellow_tripdata_2026-07.parquet": {
+    "checked_at": "2026-11-01T02:18:53.843990+00:00",
+    "downloaded_at": "2026-11-01T02:18:54.386724+00:00",
+    "size": 61685033,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-07.parquet"
+  },
+  "yellow_tripdata_2026-08.parquet": {
+    "checked_at": "2026-11-01T02:18:54.387245+00:00",
+    "downloaded_at": "2026-11-01T02:18:54.920754+00:00",
+    "size": 59043961,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-08.parquet"
+  },
+  "yellow_tripdata_2026-09.parquet": {
+    "checked_at": "2026-11-01T02:18:54.921486+00:00",
+    "downloaded_at": "2026-11-01T02:18:55.529494+00:00",
+    "size": 67374896,
+    "status": "valid",
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-09.parquet"
+  }
+}

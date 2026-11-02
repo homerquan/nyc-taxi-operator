@@ -1,0 +1,10 @@
+# Large datasets and model artifacts are stored in Git LFS.
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.geojson filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+
+# Preserve the official lookup CSV bytes and its CRLF line endings.
+*.csv -text whitespace=cr-at-eol

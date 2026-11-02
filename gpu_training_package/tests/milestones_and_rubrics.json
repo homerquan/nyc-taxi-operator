@@ -1,0 +1,22 @@
+{
+  "task_id": "otter/nyc-taxi-tgn",
+  "milestones": [
+    {"id": "data-preparation", "name": "Input data and chronological splits", "type": "deterministic", "critical": true,
+     "criteria": [
+       {"id": "data_integrity", "description": "Bundled processed TLC files match their inventory and cover all 36 months", "weight": 1},
+       {"id": "chronological_splits", "description": "Train, validation and full test periods are nonempty and separated by the label embargo", "weight": 2}
+     ]},
+    {"id": "model-training", "name": "CUDA training and validation", "type": "deterministic", "critical": true,
+     "criteria": [
+       {"id": "cuda_training", "description": "Training records a CUDA GPU and CUDA-enabled PyTorch", "weight": 1},
+       {"id": "training_validation_checkpoint", "description": "Finite training and validation losses and the best-validation TGN checkpoint are present", "weight": 2}
+     ]},
+    {"id": "held-out-evaluation", "name": "Held-out TGN versus historical baselines", "type": "deterministic", "critical": true,
+     "criteria": [
+       {"id": "evaluation_coverage", "description": "The complete test interval is evaluated and bound to the saved checkpoint", "weight": 2},
+       {"id": "matched_candidates_and_mrr", "description": "All models use the same candidates and the saved MRR is independently recomputed", "weight": 3},
+       {"id": "ground_truth", "description": "Saved observed counts match the supplied held-out TLC data", "weight": 2},
+       {"id": "report", "description": "Assessment and report are present and agree with the metrics", "weight": 1}
+     ]}
+  ]
+}

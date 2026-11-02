@@ -1,0 +1,306 @@
+{
+  "description": "NYC TLC yellow taxi processed input files",
+  "files": {
+    "observations/2023-10.parquet": {
+      "bytes": 13406223,
+      "sha256": "9ba9094867b8f9c7d157d96ffcc985212e6879bf7bd92b7438b216fa2b7b5a6c"
+    },
+    "observations/2023-11.parquet": {
+      "bytes": 12444012,
+      "sha256": "724cc1494944ab11abd00384407719cd9708a258be67af0009b4d6641242d73a"
+    },
+    "observations/2023-12.parquet": {
+      "bytes": 12820533,
+      "sha256": "952c2e5ce267e743cdc31d2ef2b467e2b01d88e706c0afa2b8d8374bf3fe6b6e"
+    },
+    "observations/2024-01.parquet": {
+      "bytes": 11222603,
+      "sha256": "9febec09094e70e38e7ad9e42b5e67da6a7a0b8fdd657a5c6a1b1b7c09ebf33d"
+    },
+    "observations/2024-02.parquet": {
+      "bytes": 11290850,
+      "sha256": "69ba897585d738b055275b046229b891bcfe2da28e3bf183ca07f299eba1876d"
+    },
+    "observations/2024-03.parquet": {
+      "bytes": 13797380,
+      "sha256": "af949717b50c5228a2fa0617c5c93a78b10570f9b9b7598e98dad66a809e145c"
+    },
+    "observations/2024-04.parquet": {
+      "bytes": 13591125,
+      "sha256": "a25052bfc5b4d0289179967ec13f55fa7e3fc68ff1ba42de9214de40e25222b5"
+    },
+    "observations/2024-05.parquet": {
+      "bytes": 14509810,
+      "sha256": "8821487b55a08b670fd8c67ce178ada74d52dbcc1e9a455795a5765a4eafe692"
+    },
+    "observations/2024-06.parquet": {
+      "bytes": 13869505,
+      "sha256": "cc203baf5ee8c681a4079e0b927a04ef9837a0e97ae33debe90598c56e7ccf91"
+    },
+    "observations/2024-07.parquet": {
+      "bytes": 12307773,
+      "sha256": "e9c5776007021ce6b947b24210d61ed5bea6ac34dfe3440a0fe428b157740ca7"
+    },
+    "observations/2024-08.parquet": {
+      "bytes": 12176753,
+      "sha256": "fbe8cf345ac94745db6adc8b73d0d2c57feb874a31b9ff285795249076f9c0ec"
+    },
+    "observations/2024-09.parquet": {
+      "bytes": 14643298,
+      "sha256": "d421505e23e97bb897a49a08fb66debc918233bbd33913ee676d886bfd07eace"
+    },
+    "observations/2024-10.parquet": {
+      "bytes": 14829585,
+      "sha256": "458192a532490cd83de97db4be772ddbca1de0065144c71b45026c288b2021a2"
+    },
+    "observations/2024-11.parquet": {
+      "bytes": 13915510,
+      "sha256": "75bff041425cbc45b9d0168d1b0eda9c883481996d909020df3f137a0abf0d62"
+    },
+    "observations/2024-12.parquet": {
+      "bytes": 14139673,
+      "sha256": "b3f1e6f92df4356f4965100a149f584d0f76e85eb4106d3aba01788e41a55b78"
+    },
+    "observations/2025-01.parquet": {
+      "bytes": 12926721,
+      "sha256": "90eb1ca29e1e11eb599e1a7b2889adb50b3d3b972f3598c0e69f33085b99e3af"
+    },
+    "observations/2025-02.parquet": {
+      "bytes": 13423266,
+      "sha256": "9b4cb3912465093d80143cc78242f3bf1dab267978dd4fd445fbf1af58a926ee"
+    },
+    "observations/2025-03.parquet": {
+      "bytes": 15950760,
+      "sha256": "27da8ed552a9e5d3e06198b0c36bb1d24cc2751a1afa4098fee1d63bc06e6af4"
+    },
+    "observations/2025-04.parquet": {
+      "bytes": 15252051,
+      "sha256": "89ec7a9182718d00f14f44ed61b1d707c05ffd62a936f29da16990e5d8fed522"
+    },
+    "observations/2025-05.parquet": {
+      "bytes": 17824857,
+      "sha256": "c7ef824131c182f25e0b42e225eb103314cdabf6c8f145ad3770b2de61423cd3"
+    },
+    "observations/2025-06.parquet": {
+      "bytes": 17379161,
+      "sha256": "4a48f5731223105089076da6c33dd7eed29c39fcadae84eb2ba05a5cd6baf1b9"
+    },
+    "observations/2025-07.parquet": {
+      "bytes": 15964685,
+      "sha256": "d4847f78af83038b30d7743625f4a4d7cd45307bc5592622ea81f6d5eb47f9ed"
+    },
+    "observations/2025-08.parquet": {
+      "bytes": 14897105,
+      "sha256": "db3eee8e2b33f2dc2e1f55b1553ac920cebea52a1099581ea202bcbdc848de61"
+    },
+    "observations/2025-09.parquet": {
+      "bytes": 17125749,
+      "sha256": "1949df32763d7434b0f9eb8e900a9dc8866e7899b2ee2a0eef0f9ca588e01629"
+    },
+    "observations/2025-10.parquet": {
+      "bytes": 17198407,
+      "sha256": "f7fd4f80d95767ebdd0e5d373e9c66b347756edb29a5216c68eac9f3be09666f"
+    },
+    "observations/2025-11.parquet": {
+      "bytes": 15822355,
+      "sha256": "f66cf579d2fef642e656d10cf86696d4b07c131eebc734fa31d3e29aeafd9638"
+    },
+    "observations/2025-12.parquet": {
+      "bytes": 18375947,
+      "sha256": "a792da86beea08fcbde03619b5fb5a45484dabddefccbc0578b0f51e850ee5e2"
+    },
+    "observations/2026-01.parquet": {
+      "bytes": 16228200,
+      "sha256": "9b6a26be629fe3166459e34a61a11f56cc24594b99346ed2b181aeb56d582874"
+    },
+    "observations/2026-02.parquet": {
+      "bytes": 14907242,
+      "sha256": "642f5ec4ca9b3f96ae09638860c9857bc6acd9aa6f6fe3b264c2274ea334a75c"
+    },
+    "observations/2026-03.parquet": {
+      "bytes": 16989222,
+      "sha256": "ff466a3d80ca4f571f582579af60d221c2b3d85886cf474481eeb395cc9b6690"
+    },
+    "observations/2026-04.parquet": {
+      "bytes": 16316921,
+      "sha256": "dc303324ab71873a2642360ec0794c6bbc814021c951b18b57f49a33eddda672"
+    },
+    "observations/2026-05.parquet": {
+      "bytes": 17587532,
+      "sha256": "ad9d425607a82e2e5fe02b430d220fad7165f73ab65995a84e1f14b6f1591c6d"
+    },
+    "observations/2026-06.parquet": {
+      "bytes": 16241327,
+      "sha256": "3a57616e1b60b0836517e548dcb7a9e696c5fd3fcf5052f0c0eb6f88973bf888"
+    },
+    "observations/2026-07.parquet": {
+      "bytes": 15515021,
+      "sha256": "5e7ae60ea432d787ec2e4de2003c508b7430b784e90c55e06277af76c694bd13"
+    },
+    "observations/2026-08.parquet": {
+      "bytes": 14989331,
+      "sha256": "b5e379b934a2a4b7c2352bd61828866f35f9967d7ca270133c7226ab8b32008c"
+    },
+    "observations/2026-09.parquet": {
+      "bytes": 17203286,
+      "sha256": "7c2e73f64e66c2f9fe8ad50999a6cddca842f41f91fcfd222ea22bd5773fd478"
+    },
+    "targets/2023-10.parquet": {
+      "bytes": 12725010,
+      "sha256": "596e1bd0334b3ff49f44050b687048176f9e67332b782cba8020c57c9312f316"
+    },
+    "targets/2023-11.parquet": {
+      "bytes": 11816989,
+      "sha256": "c116847e4e461271acd26b4e592fef05a0102d9b727466e825a6da629c47a433"
+    },
+    "targets/2023-12.parquet": {
+      "bytes": 12232687,
+      "sha256": "08eb0236876e53b402816274d358bf0f02d646a9424dd714a48fa2a6d8134b86"
+    },
+    "targets/2024-01.parquet": {
+      "bytes": 10902360,
+      "sha256": "635b64655270b9b83c14b131e30e63c7078a7ab33504eeb299f2a9426be59b26"
+    },
+    "targets/2024-02.parquet": {
+      "bytes": 11011703,
+      "sha256": "bab51d98e287ce164ce4fe9c89fbdbd03dd27295c1c1c2d67bdc22049db779aa"
+    },
+    "targets/2024-03.parquet": {
+      "bytes": 13415505,
+      "sha256": "78432bea81e592f4f9899925cfb7faaa9f5d80dfee9563f52686da05c0e93856"
+    },
+    "targets/2024-04.parquet": {
+      "bytes": 13154031,
+      "sha256": "0334e8490d81facf0c6f4034d1aaeb4f262ce605fbb13e17e3203ee0cca5e961"
+    },
+    "targets/2024-05.parquet": {
+      "bytes": 13968131,
+      "sha256": "3f37ce918bc0e664841853b0bcb3b80808592ba729d4d2717fcf55748592f8f0"
+    },
+    "targets/2024-06.parquet": {
+      "bytes": 13554881,
+      "sha256": "5d3ee52c5309473d88483be899b1d86654c9b69a5e5dac1d2ee00434e699438f"
+    },
+    "targets/2024-07.parquet": {
+      "bytes": 12177817,
+      "sha256": "b4b6468e4a9d8af3bf2138017ef84c929e48cd50ebdd21511cb861007237de08"
+    },
+    "targets/2024-08.parquet": {
+      "bytes": 12097131,
+      "sha256": "8cd7538af6e960da3d672ed0f3fded9b5cde0045fd5467eb3fa0fbcb0ca55624"
+    },
+    "targets/2024-09.parquet": {
+      "bytes": 14028705,
+      "sha256": "05abbee1f31306c26b830da0aee5d1452a0f6b240f295fa7db095c897ece8f1b"
+    },
+    "targets/2024-10.parquet": {
+      "bytes": 14177846,
+      "sha256": "a574d756a3fd5dd1a23ae7860f9ae2d08471ec52cc74485360d3769dd517024b"
+    },
+    "targets/2024-11.parquet": {
+      "bytes": 13466094,
+      "sha256": "b5b2710c1d79422e415f36a95d75f2310b53c93fb2e6d31f9f0b341af2e318ed"
+    },
+    "targets/2024-12.parquet": {
+      "bytes": 13429313,
+      "sha256": "c591c45e29ece326f74641c504253fa4ea5ba21f318cc030b869c807a2c11da8"
+    },
+    "targets/2025-01.parquet": {
+      "bytes": 12778849,
+      "sha256": "0bb868f679ef83da699c85354ae6df93831af2e9a46a6758ba64e81b1b81521b"
+    },
+    "targets/2025-02.parquet": {
+      "bytes": 13334996,
+      "sha256": "badff24728383c3b53f75b67abdd8af5e4fcf2d36caedefb034d443283de7dcc"
+    },
+    "targets/2025-03.parquet": {
+      "bytes": 15765513,
+      "sha256": "862964531ee2bc0a0f6987f3f9560256c3649ac37dd18b63b9cbdb033045c99a"
+    },
+    "targets/2025-04.parquet": {
+      "bytes": 15069809,
+      "sha256": "8f259d094b9e19a4b6f5361182447cbe08809eb649ca08de6b127c240804cffd"
+    },
+    "targets/2025-05.parquet": {
+      "bytes": 17434634,
+      "sha256": "29ca89e010214caa09e3f0d37580c46cb596ee751f5b9150a843f6d81608e595"
+    },
+    "targets/2025-06.parquet": {
+      "bytes": 17360007,
+      "sha256": "7719e28cb7caf9c47f07bf2560e4e2d1530d45bbb76b2b525d829125663ecedf"
+    },
+    "targets/2025-07.parquet": {
+      "bytes": 16070488,
+      "sha256": "31e73a5b21c37895131b914f7ac7234fef6d90a9859433744982dc74ed808bc5"
+    },
+    "targets/2025-08.parquet": {
+      "bytes": 15176090,
+      "sha256": "fad97d4660703a008957df7c7e6a070370015a4cf9ffbdc98acb12c363163836"
+    },
+    "targets/2025-09.parquet": {
+      "bytes": 16939825,
+      "sha256": "b4e5db8e958d8d496c392504430631776e255e18b7cd7c112fd293a9dbde0107"
+    },
+    "targets/2025-10.parquet": {
+      "bytes": 16730980,
+      "sha256": "5ccc8b8e155f7d83c6cb8a350d914f52c33b0cf377938c0413ee5040917f3a4c"
+    },
+    "targets/2025-11.parquet": {
+      "bytes": 15428873,
+      "sha256": "c2f2f6de7db09700768f2d252c171cc81593901dfeb49c2673806fa5009fa2d2"
+    },
+    "targets/2025-12.parquet": {
+      "bytes": 17967379,
+      "sha256": "cd64b14d421450f08870afb506b1d344c2df985eca2e63fc25b2f8f8ee8ac12a"
+    },
+    "targets/2026-01.parquet": {
+      "bytes": 16378714,
+      "sha256": "3d688ab8fc077321c428a1255bf9756778d6d90474dc0cb85e9c2e46810ee8e2"
+    },
+    "targets/2026-02.parquet": {
+      "bytes": 14944438,
+      "sha256": "c456444cbcf0a6ce4236c9962c047296999f5b129f529af5d179c0246969bfc2"
+    },
+    "targets/2026-03.parquet": {
+      "bytes": 16995123,
+      "sha256": "6e213683501c43273cdb7ca75c68de215a89171d6363aa5e45af06163643099a"
+    },
+    "targets/2026-04.parquet": {
+      "bytes": 16206222,
+      "sha256": "078b7b4cdf3e091017f4f3debed073e13b4d2ecad878e050a205fbd84bc89dcf"
+    },
+    "targets/2026-05.parquet": {
+      "bytes": 17357417,
+      "sha256": "9fa56aaee1b8e7d0264e3019779989a149538c7557a30be492be3b83e6fd64f0"
+    },
+    "targets/2026-06.parquet": {
+      "bytes": 16015987,
+      "sha256": "99c13dd7d9c37b842c4895deb0f7d36d031e79db7e2683005402705a040faaab"
+    },
+    "targets/2026-07.parquet": {
+      "bytes": 15626171,
+      "sha256": "e124656a304e06b7ba522484098ac53ef0db82253f2db769eb39dda1e6b2a47b"
+    },
+    "targets/2026-08.parquet": {
+      "bytes": 15195700,
+      "sha256": "9a0e496ea053d6fbe122cfb9aeedb33c2a437294820caf0ea44de2d3371633c5"
+    },
+    "targets/2026-09.parquet": {
+      "bytes": 16930579,
+      "sha256": "79a2bdb92de685a6514c799c1561e7276cd8527418770325b5ed47d54e4dc9a5"
+    },
+    "validation.json": {
+      "bytes": 7035,
+      "sha256": "9c218870de270bffc5eccafc52ae773e2ce30f9ce4899f984062d69fd9655b4a"
+    },
+    "zones.geojson": {
+      "bytes": 4444331,
+      "sha256": "772e4a6bf04089d302ee38e26902f0c843bb4a8593310a7cc2c098dd512dd91f"
+    },
+    "zones.parquet": {
+      "bytes": 13236,
+      "sha256": "2c62cf3a007ffee5e77be9df7929164ca0127c0cd8f99fe0c3a9847f01ae458b"
+    }
+  },
+  "schema_version": 1
+}
